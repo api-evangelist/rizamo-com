@@ -64,5 +64,148 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Rizamo is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://rizamo.com
+Rizamo provides a social media API and MCP server for AI agents, enabling publishing, tracking, and webhook notifications across Instagram, Facebook, TikTok, Threads, LinkedIn, and YouTube. It offers custom fields, scheduling, and analytics for agent‑run marketing workflows.
+
+**Areas:** Social Media API · AI Agents · Marketing Automation · Webhooks · MCP Server · SDK · CLI
+
+## Rizamo on APIs.io
+
+Everything profiled for Rizamo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rizamo-com/](https://apis.io/providers/rizamo-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (14)
+
+- [Rizamo Accounts API](https://apis.io/apis/rizamo-com/rizamo-com-accounts-api/) — Connected social accounts: what each can do, links to connect more, and removing one.
+- [Rizamo Analytics API](https://apis.io/apis/rizamo-com/rizamo-com-analytics-api/) — Views, reach, engagements and followers over a period, each post's numbers, and the audience.
+- [Rizamo Billing API](https://apis.io/apis/rizamo-com/rizamo-com-billing-api/) — The plan and what one more account costs. Paying happens in the web app.
+- [Rizamo Comment automations API](https://apis.io/apis/rizamo-com/rizamo-com-comment-automations-api/) — Comments with a keyword answered by private message, with a link.
+- [Rizamo Custom fields API](https://apis.io/apis/rizamo-com/rizamo-com-custom-fields-api/) — The team's own fields on posts, such as a campaign, to filter and report by.
+- [Rizamo Events API](https://apis.io/apis/rizamo-com/rizamo-com-events-api/) — Everything that changed, and who changed it: the same events webhooks send.
+- [Rizamo Inbox API](https://apis.io/apis/rizamo-com/rizamo-com-inbox-api/) — Comments and private messages on the connected accounts: reading, answering and moderating them.
+- [Rizamo Links API](https://apis.io/apis/rizamo-com/rizamo-com-links-api/) — Short links that count their clicks, for captions, first comments, bios and messages.
+- [Rizamo Media API](https://apis.io/apis/rizamo-com/rizamo-com-media-api/) — Images and videos for posts: imported from a link, uploaded, or asked of a person.
+- [Rizamo Network posts API](https://apis.io/apis/rizamo-com/rizamo-com-network-posts-api/) — Every post on the connected accounts, made in Rizamo or anywhere else, with its numbers.
+- [Rizamo Posts API](https://apis.io/apis/rizamo-com/rizamo-com-posts-api/) — Drafts, scheduled and published posts, each going to one or more accounts (its targets).
+- [Rizamo Profiles API](https://apis.io/apis/rizamo-com/rizamo-com-profiles-api/) — The brands or clients a team posts for, each with its own accounts, posting queue and time zone.
+- [Rizamo Team API](https://apis.io/apis/rizamo-com/rizamo-com-team-api/) — The team's members, to hand inbox threads to.
+- [Rizamo Webhooks API](https://apis.io/apis/rizamo-com/rizamo-com-webhooks-api/) — Endpoints that receive events as they happen, signed as Standard Webhooks sign them.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Rizamo Com Webhooks](https://apis.io/asyncapis/rizamo-com/rizamo-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Rizamo Agentic Access](https://apis.io/agentic-access/rizamo-com/rizamo-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AnalyticsOverview](https://apis.io/schemas/rizamo-com/rizamo-com-analytics-overview/)
+- [CommentAutomation](https://apis.io/schemas/rizamo-com/rizamo-com-comment-automation/)
+- [Event](https://apis.io/schemas/rizamo-com/rizamo-com-event/)
+- [NetworkPost](https://apis.io/schemas/rizamo-com/rizamo-com-network-post/)
+- [TargetOptions](https://apis.io/schemas/rizamo-com/rizamo-com-target-options/)
+- [WebhookEndpoint](https://apis.io/schemas/rizamo-com/rizamo-com-webhook-endpoint/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Rizamo Com Context](https://apis.io/jsonld/rizamo-com/rizamo-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Rizamo API Rules](https://apis.io/rules/rizamo-com/rizamo-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rizamo Authentication](https://apis.io/security/rizamo-com/rizamo-com-authentication/)
+- [Rizamo Domain Security](https://apis.io/security/rizamo-com/rizamo-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Rizamo Plans Pricing](https://apis.io/plans/rizamo-com/rizamo-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rizamo.com)
+- [Documentation](https://docs.rizamo.com/api)
+- [Getting started](https://docs.rizamo.com/quickstart)
+- [API reference](https://docs.rizamo.com)
+- [Pricing](https://rizamo.com/pricing/)
+- [Changelog](https://docs.rizamo.com/changelog)
+- [Terms of service](https://rizamo.com/legal/terms/)
+- [Privacy policy](https://rizamo.com/legal/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 58.7** — strong · rubric 0.28.0 · scored 2026-11-22
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 70.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.4 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 40.9 |
+
+**Agent readiness 68.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rizamo-com/](https://apis.io/providers/rizamo-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rizamo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rizamo-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
